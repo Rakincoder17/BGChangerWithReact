@@ -4,7 +4,7 @@ const App = () => {
 const [color, setcolor] = useState("olive")
 const [textcolor, settextcolor] = useState("black")
   return (
-    <div className=' w-full h-screen p-2' style={{backgroundColor : color}}>
+    <div className=' w-full min-h-screen p-2' style={{backgroundColor : color}}>
       <div className=' bg-black m-5 rounded-xl p-5 flex flex-wrap justify-center items-center gap-5 bg-opacity-30 border-slate-600 border-2'>
         <button className=' p-1 rounded-xl w-16' style={{backgroundColor:"violet"}} onClick={()=>{
           setcolor("violet")
